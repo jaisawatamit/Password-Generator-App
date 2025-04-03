@@ -35,7 +35,7 @@ function App() {
     }
   };
 
-  const copyToClipboard = () => {
+  const copyToClipboard  = () => {
     if (password) {
       navigator.clipboard.writeText(password);
       setCopied(true);
@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-rose-500 via-amber-500 to-orange-600 p-6">
       <div className="bg-white/20 backdrop-blur-xl rounded-3xl shadow-2xl p-8 w-full max-w-lg border border-white/30">
-        <h1 className="text-4xl font-bold mb-6 text-center text-white drop-shadow-lg">
+        <h1 className="text-7xl font-bold mb-6 text-center text-white drop-shadow-lg">
           Password Generator
         </h1>
 
